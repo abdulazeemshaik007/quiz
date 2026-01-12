@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Online Quiz Application</h2>
+
+<div class="quiz-box">
+    <p id="question"></p>
+
+    <input type="radio" name="option" id="opt1">
+    <label for="opt1" id="op1"></label><br>
+
+    <input type="radio" name="option" id="opt2">
+    <label for="opt2" id="op2"></label><br>
+
+    <input type="radio" name="option" id="opt3">
+    <label for="opt3" id="op3"></label><br>
+
+    <input type="radio" name="option" id="opt4">
+    <label for="opt4" id="op4"></label><br><br>
+
+    <button onclick="nextQuestion()">Next</button>
+</div>
+
+<h3 id="result"></h3>
+
+<script src="script.js"></script>
+</body>
+</html>
